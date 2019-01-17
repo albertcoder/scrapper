@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Scraping With Mongoose</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <div class="topnav">
+      <a class="active" href="/">Home</a>
+      <a href="/scrape">Let's scrape some data</a>
+      <a href="/articles">Articles</a>
+      <a href="https://css-tricks.com/archives/">Original Site</a>
+    </div>
+    <h1>Article Scraper</h1>
+    <h2><i>Articles scrapped using Axios and Cheerio then stored in MongoDB using mongoose.</a></i></h2>
+    <div id="articles"></div>
+    <div id="notes"><h2>Click on an article title on the left to add a memo.</h2></div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
